@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/multi-select-tag.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miniproject</title>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/css/multi-select-tag.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/7951bd2be7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- <script src="multi-input.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<!-- style="display: inline; margin: 8px 3px auto; " -->
+
+<body>
+  <div class="navigation">
+  <header class="navbar" id="navib">
+    <nav>
+      <a href="./" class="logo">
+        <img src="images/logo.jpg" />
+      </a>
+      <ul class="options">
+        <li><a href="#home" class="active" href="javascript:void(0)" style="text-decoration: none;"><i
+              class="fas fa-home"></i><span>Home</span></a>
+        </li>
+        <li><a href="#home" href="javascript:void(0)" style="text-decoration: none;"><i
+              class="fas fa-pen"></i><span>My Projects</span></a>
+        </li>
+        <img src="images/brave.png" class="user-pic" style="margin-right: 40px;">
+      </ul>
+    </nav>
+  </header>
+</div>
+  <div class="homedata">
+    <div class="col-1">
+      <h1>Platform to showcase your projects</h1>
+      <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse temporibus voluptatem laboriosam
+          asperiores voluptatum nesciunt ipsa dolorem natus non ducimus.</i></p>
+      <a class="expbutton" href="form">Upload a Project</a>
+    </div>
+    <div class="col-2">
+      <img src="images/backg2.png">
+    </div>
+  </div>
+  <section class="homepage" id="menu">
+    <div class="projects-div">
+      <div class="project-content">
+        
+        <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ctyyicne.json"
+                    background="transparent" speed="1" style="width: 200px; height: 100px;" loop autoplay>
+                </lottie-player> -->
+        <h1>Search any project in an efficient way</h1>
+      <div>
+        <a href="#myFooter"></a>
+      </div>
+      </div>
+      {{!-- <div id='myFooter'>
+        <a href='#myFooter'/>
+      </div> --}}
+      <div class="dropdown" >
+        {{!-- <a href="#myFooter"></a> --}}
+        <select name="technologies" id="technologies" multiple>
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">Javascript</option>
+          <option value="4">React</option>
+          <option value="5">Node JS</option>
+          <option value="6">Flutter</option>
+          <option value="7">Dart</option>
+          <option value="8">Deep Learning</option>
+          <option value="9">IoT</option>
+          <option value="10">Python</option>
+          <option value="11">HTML</option>
+          <option value="12">CSS</option>
+          <option value="13">Javascript</option>
+          <option value="14">React</option>
+          <option value="15">Node JS</option>
+          <option value="16">Flutter</option>
+          <option value="17">Dart</option>
+          <option value="18">Deep Learning</option>
+          <option value="19">IoT</option>
+          <option value="20">Python</option>
+        </select>
+      </div>
+
+      <div class="container">
+        <div class="border-div">
+          <div class="cards grid-row">
+            <div class="card">
+              <div class="card-top">
+                <img src="images/1_poster.png" alt="Project logo">
+              </div>
+              <div class="card-info">
+                <h2>Onetrack</h2>
+                <span class="date">Monday, Jan 20, 2021</span>
+                <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore hic tenetur ut
+                  numquam quos deleniti molestiae quibusdam ad molestias necessitatibus?</p>
+              </div>
+              <div class="card-bottom flex-row">
+                <!-- <a href="#" class="read-more">View Project</a> -->
+                <a href="#" class="button btn-sky">View Project</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-top">
+                <img src="images/1_poster.png" alt="Project logo">
+              </div>
+              <div class="card-info">
+                <h2>Onetrack</h2>
+                <span class="date">Monday, Jan 20, 2021</span>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam perferendis libero
+                  et voluptatum asperiores voluptatem fugiat debitis ipsum amet dicta.</p>
+              </div>
+              <div class="card-bottom flex-row">
+                <!-- <a href="#" class="read-more">View Project</a> -->
+                <a href="#" class="button btn-sky">View Project</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-top">
+                <img src="images/1_poster.png" alt="Project logo">
+              </div>
+              <div class="card-info">
+                <h2>Onetrack</h2>
+                <span class="date">Monday, Jan 20, 2021</span>
+                <p class="details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad veniam dignissimos
+                  dolores obcaecati sed hic eveniet dolorum ipsa. Tempore, rerum!</p>
+              </div>
+              <div class="card-bottom flex-row">
+                <!-- <a href="#" class="read-more">View Project</a> -->
+                <a href="#" class="button btn-sky">View Project</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-top">
+                <img src="images/1_poster.png" alt="Project logo">
+              </div>
+              <div class="card-info">
+                <h2>Onetrack</h2>
+                <span class="date">Monday, Jan 20, 2021</span>
+                <p class="details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatibus
+                  inventore magni in facilis magnam explicabo expedita, velit nisi! Quos!</p>
+              </div>
+              <div class="card-bottom flex-row">
+                <!-- <a href="#" class="read-more">View Project</a> -->
+                <a href="#" class="button btn-sky">View Project</a>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-top">
+                <img src="images/1_poster.png" alt="Project logo">
+              </div>
+              <div class="card-info">
+                <h2>Onetrack</h2>
+                <span class="date">Monday, Jan 20, 2021</span>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio vero, mollitia
+                  recusandae error quia ut facere temporibus exercitationem quos accusamus.</p>
+              </div>
+              <div class="card-bottom flex-row">
+                <!-- <a href="#" class="read-more">View Project</a> -->
+                <a href="#" class="button btn-sky">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <script src="javascripts/index.js"></script>
+  <script src="javascripts/multi-select-tag.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag/dist/js/multi-select-tag.js"></script> -->
+  <script>
+    new MultiSelectTag('technologies')  // id
+  </script>
+
+
+</body>
+
+</html>
