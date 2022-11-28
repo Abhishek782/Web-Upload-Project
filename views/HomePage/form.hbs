@@ -94,29 +94,27 @@
                             <option value="Flutter">Flutter</option>
                             <option value="Dart">Dart</option>
                             <option value="Deep Learning">Deep Learning</option>
-                            <option value="9">IoT</option>
-                            <option value="10">Python</option>
-                            <option value="11">HTML</option>
-                            <option value="12">CSS</option>
-                            <option value="13">Javascript</option>
-                            <option value="14">React</option>
-                            <option value="15">Node JS</option>
-                            <option value="16">Flutter</option>
-                            <option value="17">Dart</option>
-                            <option value="18">Deep Learning</option>
-                            <option value="19">IoT</option>
-                            <option value="20">Python</option>
+                            <option value="IoT">IoT</option>
+                            <option value="Python">Python</option>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="Javascript">Javascript</option>
+                            <option value="React">React</option>
+                            <option value="Node JS">Node JS</option>
+                            <option value="Flutter">Flutter</option>
+                            <option value="Dart">Dart</option>
+                            <option value="Deep Learning">Deep Learning</option>
                         </select>
                     </div>
-                    <label for="myfile" style="margin-right: 10px">Some glimpses of your application</label>
-                    <input type="file" id="myfile" class="upload-box" name="apk_views" multiple><br>
                     <label for="myfile" style="margin-right: 115px">Video demo (if any)</label>
-                    <input type="file" id="myfile" class="upload-box" name="vid1"><br>
-                    <input type="text" placeholder="Project Repository link (Github)" name="repolink">
+                    <input type="file" id="vid1" class="upload-box" name="vid1"><br>
+                    <label for="myfile" style="margin-right: 10px">Some glimpses of your application</label>
+                    <input type="file" id="apk_views" class="upload-box" name="apk_views" multiple><br>
+                    <input type="text" placeholder="Project Repository link (Github)" name="repolink" id="repolink">
                     <div class="flex-input">
-                        <input type="text" placeholder="Website link" name="weblink">
-                        <label for="myfile" style="margin-left: 50px">App apk</label>
-                        <input type="file" id="myfile" class="upload-box" name="apkf"><br>
+                        <input type="text" placeholder="Website link" name="weblink" id="weblink">
+                        {{!-- <label for="myfile" style="margin-left: 50px">App apk</label> --}}
+                        {{!-- <input type="file" id="myfile" class="upload-box" name="apkf"><br> --}}
                         <button id="done" type="submit" onclick="postData()">Done</button>
                     </div>
 

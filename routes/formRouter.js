@@ -26,7 +26,11 @@ const imageFileFilter=(req,file,cb)=>{
     cb(null,true);
 }
 
-const upload = multer({ storage: storage, fileFilter: imageFileFilter}).single('myfile1');
+const upload = multer({ storage: storage,
+    limits:{
+        fileSize:1024*1024*5
+    },
+    fileFilter: imageFileFilter}).single('myfile1');
 
 formRouter.route('/')
 .get((req,res,next)=>{
