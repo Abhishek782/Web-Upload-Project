@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/pmobile.css">
+    <script src="https://kit.fontawesome.com/49ae0caa8c.js" crossorigin="anonymous"></script>
+    <title> Dashboard | Project For Projects </title>
+</head>
+<body>  
+    
+    <div id="profile">
+        <img id="profile" src="images_anand/person-1.jpg" alt="Profile">
+        <div class="temp"></div>
+        <h1 id="wc"></h1>
+        <h3 id="name">Anjella White</h3>    
+        <button class="edit btn" onclick="edit()" > <img class="edit"src="images_anand/pencil.png"/></button>
+        <p id="about" >About him/her : Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias dolorem, ipsa vero nihil recusandae delectus?</p>
+        <br>
+        <p id="mail" >Email : <a href="#">angellawhite@test.t</a></p>
+    </div>
+
+    <div>
+        <form id="form">
+            <h1 id="wc"></h1>
+            <img id="fprofile" src="images_anand/profile.jpg" alt="Profile">
+            <!-- <div id="name">
+                <input type="text" id="pname" name="name" placeholder="Enter Name "><br>
+            </div> -->
+            <div class="input-container " id="name">
+                <input id="pname" class="input" type="text" placeholder=" " />
+                <div class="cut"></div>
+                <label for="Name" class="placeholder">First name</label>
+              </div>
+            <!-- <div id="email">
+                <input type="email" id="pemail" name="email" placeholder="Enter Email"> <br>
+            </div> -->
+            <div class="input-container " id="email">
+                <input id="email" class="input" type="text" placeholder=" " />
+                <div class="cut cut-short"></div>
+                <label for="email" class="placeholder">Email<label/>
+              </div>
+            <div class="temp"><button disabled="disabled"></button></div>     
+            <div id="about" class="input-container">
+                <textarea id="pabout" name="about" class="input" style="height:100px" placeholder=" "></textarea>
+                <div class="cut cut-short"></div>
+                <label for="about" class="placeholder">Enter About Yourself<label/>
+            </div>
+            <button type="submit" class="edit btn" id="edit" >Submit</button>
+        </form>
+    </div>
+
+    <div class="projects">
+        <!-- no. of divs to be added according to DB -->
+        <h2>Projects</h2>
+        <div class="pr">
+
+            <div class="box">
+                <a href="./form.html" class="btn1"><i class="fa-solid fa-circle-plus fa-10x"></i> </a>
+                <h4>Add Project</h4>
+            </div>
+
+            <div class="box">
+                <img src="./images/project.jpg" alt="Project">
+                <div class="text">
+                    <h3>Title of Project</h3>
+                    <p>Tags : <a href="#">#</a></p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/project.jpg" alt="Project">
+                <div class="text">
+                    <h3>Title of Project</h3>
+                    <p>Tags : <a href="#">#</a></p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./images/project.jpg" alt="Project">
+                <div class="text">
+                    <h3>Title of Project</h3>
+                    <p>Tags : <a href="#">#</a></p>
+                </div>
+            </div>
+
+        </div>
+      
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

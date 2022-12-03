@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="480" viewBox="0 0 640 480" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(7.38 0 0 7.38 328.64 186.11)"  >
+<linearGradient id="SVGID_831" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -45 -25)"  x1="0" y1="25" x2="90" y2="25">
+<stop offset="0%" style="stop-color:rgba(89, 0, 255, 0.9);"/>
+<stop offset="100%" style="stop-color:rgba(81, 215, 255, 1);"/>
+</linearGradient>
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_831); fill-rule: nonzero; opacity: 1;"  x="-45" y="-25" rx="0" ry="0" width="90" height="50" />
+</g>
+</svg>

@@ -1,0 +1,53 @@
+
+body{
+    background: url('./../images/mobile.svg') ;
+    background-repeat: no-repeat;
+    /* overflow: visible; */
+    background-size: 100vw;
+    background-size: 130vh;
+    top: 0;
+    margin: 0;
+}
+
+#profile{
+    display: grid;
+    grid: 
+    'wc wc wc'
+    ' img img img'
+    ' email name temp'
+    ' edit about temp'
+    'project project project';
+    margin: 0 2rem 0 2rem;
+    grid-gap: 20px 50px;
+    top: 0;
+    align-items: center;
+    color: white;
+    /* margin-bottom: 30px; */
+}
+
+#form{
+    display: none;
+    /* display: grid; */
+    grid: 
+    'wc wc wc'
+    ' img img img'
+    ' name email temp'
+    /* ' wc email wc' */
+    ' edit about temp '
+    'project project project';
+    margin: 0 2rem 0 2rem;
+    grid-gap: 20px 50px;
+    top: 0;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#form #fprofile{
+    align-self: center;
+}
+
+.box, .btn1{
+    height: 20rem;
+    width: 18rem;
+}

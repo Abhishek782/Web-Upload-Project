@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project Website</title>
+        <link rel="stylesheet" href="css/home-page.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+           <header>
+         <a href="#" class="logo"><img src="images_ayush/logo1.png"></a>
+         <div class="toggle" onclick="toggleMenu();"></div>
+         <ul class="navigation">
+         <ul>
+            <li><a href="/user/login">Log In</a></li>
+            <li><a href="/user/register">Sign Up</a></li>
+
+        </ul> 
+           </header>
+           <div class="content">
+           <div class="textBox">
+            <h2>Walchand College Of Engineering Sangli<br> <span>Project Managment</span></h2>
+            <p>Walchand College of Engineering (WCE) was established in 1947 and is located in Vishrambag,
+                 Sangli, Maharashtra. This college started with an undergraduate course in Civil Engineering 
+                 and a capacity of 60 students.</p>
+                  <a href="#">Learn More</a>
+                </div>
+                 <div class="imgBox">
+                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_ecsh092g.json"  background="rgba(0, 0, 0, 0)"  
+                 speed="1"  style="width: 400px; height: 600px;" hover loop  autoplay></lottie-player>
+                 </div>  
+                </div>   
+        </section>
+        <script type="text/javascript">
+           function toggleMenu()
+           {
+            var menuToggle = document.querySelector('.toggle');
+            var navigation = document.querySelector('.navigation')
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+           }
+        </script>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>company</h4>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">our services</a></li>
+                                <li><a href="#">privacy policy</a></li>
+                                <li><a href="#">affiliate program</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>get help</h4>
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Project Guide</a></li>
+                                <li><a href="#">Topic Suggestions</a></li>
+                                <li><a href="#">Current Trending techs</a></li>
+                                <li><a href="#">Resources</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Tech Stack</h4>
+                            <ul>
+                                <li><a href="#">HTML</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">React</a></li>
+                                <li><a href="#">Node</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+   
+    </body>
+</html>

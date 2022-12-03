@@ -1,6 +1,7 @@
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
+const dotenv = require('dotenv').config()
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const hbs=require("hbs");
@@ -22,7 +23,7 @@ const connect=mongoose.connect(url)
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-const template_path=path.join(__dirname,'views/HomePage')
+const template_path=path.join(__dirname,'views/')
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -30,9 +31,12 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.set("view engine","hbs")
 app.set("views",template_path);
+const userRoute = require('./routes/user');
+const homeRoute = require('./routes/home');
 
-
-app.use('/', indexRouter);
+app.use('/',homeRoute);
+app.use('/user',userRoute); 
+// app.use('/', indexRouter);
 app.use('/form',formRouter);
 app.use('/users', usersRouter);
 
