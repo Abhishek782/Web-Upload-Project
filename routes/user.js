@@ -9,7 +9,7 @@ const nodemailer = require('nodemailer');
 const cookie = require('cookie-parser')
 const {verifyEmail} = require('../config/JWT')
 const dotenv = require('dotenv').config()
-var popup = require('popups');
+
 
 router.get('/register',(req,res)=>{
     res.render('register');
@@ -60,7 +60,6 @@ router.post('/register',async(req,res)=>{
                 console.log(error);
             }
             else{
-                popup.alert({content: "Email sent"});
                 res.send(`<script>alert("Email Sent Successfully.")</script>`);
                 console.log("Verification email is sent to your gmail account !!");
 

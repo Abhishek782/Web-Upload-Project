@@ -17,7 +17,6 @@ router.get('/home',loginrequired,(req,res)=>{
     const _id=res.user;
     const curr_user = User.findOne({_id}).then((msg) => {
         res.render('home',{name : msg.name});
-        console.log(msg.name);
         
     }).catch((err) => {
         console.log(err);

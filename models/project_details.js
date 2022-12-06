@@ -14,9 +14,19 @@ const detailSchema=new Schema({
     myfile:{
         type:String,
     },
-    myfile1:{
+    filename:{
         type:String,
+        unique:true,
+        required:true
         // required:true
+    },
+    contentType:{
+        type:String,
+        required:true
+    },
+    imageBase64:{
+        type: String,
+        required: true
     },
     yname:{
         type:String,
